@@ -1,0 +1,232 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+} */
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+
+body {
+    font-size: 18px;
+    font-family: Hanken Grotesk, sans-serif;
+}
+
+.container{
+    /* width: 1440px; */
+    /* margin: auto; */
+    /* width: 100vh; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.box1content {
+    transform: translateY(3rem);
+}
+
+.box-1{
+    /* margin-top: 270px;
+    margin-left: 350px; */
+    height: 500px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: red;
+    background-image: linear-gradient(#7857FF, #2E2BE9);
+    position: relative;
+    filter: drop-shadow(0 0 10px #4444dd);
+    z-index: 999;
+}
+
+.box-2 {
+    position: relative;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    left: -2.5rem;
+    height: 500px;
+    width: 280px;
+    border-radius: 25px;
+    background-color: #EBF1FF;
+    /* background-image: linear-gradient(#7857FF, #2E2BE9); */
+    filter: drop-shadow(0 0 10px #4444dd)
+}
+
+.box-1 p{
+    position: absolute;
+    top: 5%;
+    left: 31%;
+    color: #EBF1FF;
+}
+
+.small-box {
+    display: flex;
+    height: 100%;
+    /* width: 200px; */
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 15%);
+    color: #EBF1FF;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.small-box-2 {
+    display: flex;
+    height: 100%;
+    /* width: 200px; */
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 56%, 15%);
+    color: #EBF1FF;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.small-box-3 {
+    display: flex;
+    height: 100%;
+    /* width: 200px; */
+    border-radius: 10px;
+    background-color: hsl(166, 100%, 37%, 15%);
+    color: #EBF1FF;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.small-box-4 {
+    display: flex;
+    height: 100%;
+    /* width: 200px; */
+    border-radius: 10px;
+    background-color: hsl(234, 85%, 45%, 15%);
+    color: #EBF1FF;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.reaction {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsla(0, 100%, 67%, 100%)
+}
+
+.memory {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(39, 100%, 56%, 100%)
+}
+
+.verbal {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(166, 100%, 37%, 100%)
+}
+
+.visual {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(234, 85%, 45%, 100%)
+}
+
+
+.score {
+    color: hsl(224, 30%, 27%);
+}
+
+.greyScore {
+    opacity: 50%;
+}
+
+.image {
+    display: flex;
+    height: 20px;
+}
+
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 85px;
+    left: 20%;
+    background-image: linear-gradient(#2421CA, #4E21CA);
+}
+
+.circle h1 {
+    position: relative;
+    top: 10%;
+}
+
+.circle h3 {
+    position: relative;
+    color: #C8C7FF;
+}
+
+.text h3 {
+    position: relative;
+    top: 300px;
+    left: 94px;
+    color: #EBF1FF;
+}
+
+.your-result {
+    transform: translateY(-2rem);
+}
+
+.text p {
+    position: relative;
+    width: 250px;
+    color: #C8C7FF;
+    text-align: center;
+    top: 290px;
+    left: 1px;
+    font-size: 12px;
+}
+
+.text2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #303B5A;
+    font-size: 20px;
+}
+
+.all-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.continuebutton {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+}
